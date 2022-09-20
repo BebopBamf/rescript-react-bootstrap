@@ -13,7 +13,7 @@ external make: (
   ~role: string=?,
   ~onSelect: (~eventKey: string, ~event: ReactEvent.Synthetic.t) => unit=?,
   ~onKeyDown: unit => unit=?,
-  ~variant: [#tabs | #pills],
+  ~variant: [#tabs | #pills]=?,
   ~className: string=?,
   ~children: React.element,
   ~bsPrefix: string=?,
